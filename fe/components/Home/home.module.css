@@ -1,0 +1,86 @@
+.text{
+    font-family: 'Display', sans-serif;
+    font-size: 40px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.bodyHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    background-image: url('./homeIot.jpg');
+    border:none;
+    padding:100px 10px;
+    font-size:30px;
+    background-size: cover;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    border-radius: 10px;
+    font-family: 'Courier New', monospace;
+}
+.right{
+    background-color: rgb(33, 165, 205);
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.titleRight{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+}
+.bodyRight{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 20px;
+}
+.dn{
+    padding: 10px 20px;
+    border: 3px solid rgb(33, 130, 210);
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    background-color: rgb(3, 98, 98);
+    color: rgb(247, 248, 250);
+}
+.dk{
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Courier New', monospace;
+}
+.textip{
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+}
+.finput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.tinput{
+    font-family: 'Courier New', monospace;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 10px;
+    
+}
+.xong{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}

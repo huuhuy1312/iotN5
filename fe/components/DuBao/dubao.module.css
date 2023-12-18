@@ -1,0 +1,36 @@
+.khung{
+  padding: 20px;  
+}
+.khung1{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.dataimg{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    height: 500px;
+    overflow: scroll;
+    justify-content: center;
+    gap: 15px;
+}
+.barchart{
+    padding: 10px;
+}
+.kwt{
+    display: flex;
+    padding: 0 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.wt{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 0 10px;
+    width: 200px;
+    text-align: center;
+}

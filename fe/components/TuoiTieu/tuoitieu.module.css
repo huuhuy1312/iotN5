@@ -1,0 +1,71 @@
+.khung{
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    margin-top: 30px;
+}
+.khungtuoix{
+    flex: 1;
+}
+.khungtuoi{
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.tc{
+    text-align: center;
+    padding: 50px;
+}
+.titletc{
+    color: green;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.nbnt{
+    font-size: 20px;
+    color: white;
+}
+.bnttitle{
+    padding: 0 30px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: green;
+}
+.innd{
+    display: flex;
+    gap:10px;
+    
+    align-items: center;
+    justify-content: center;
+}
+.indd{
+    display: flex;
+    gap: 22px;
+    
+    align-items: center;
+    justify-content: center;
+}
+.in{
+    font-size: 15px;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 50%;
+}
+.bnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tuoi{
+    border: 2px solid rgb(47, 111, 208);
+    border-radius: 10px;
+    padding: 0 20px;
+    background-color: rgb(47, 111, 208);
+}
+.ntuoi{
+    color: white;
+}

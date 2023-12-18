@@ -1,0 +1,133 @@
+.singleBtn {
+  margin-bottom: 27px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  .indexWithBorder {
+    width: 71px;
+    height: 71px;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .index {
+      font-size: 24px;
+    }
+  }
+
+  .rightDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .verticalDivider {
+      background-color: #717b7f;
+      margin-right: 15px;
+      width: 2px;
+      height: 60%;
+    }
+  }
+
+  .title {
+    font-size: 22px;
+    font-weight: 600;
+    /* color: #000 !important; */
+  }
+}
+
+.singleBtn:hover {
+  cursor: pointer;
+}
+
+.singleStep {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+
+  .roundIndex {
+    min-width: 44px !important;
+    height: 44px !important;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 14px;
+    background-color: var(--theme-color);
+
+    .index {
+      font-size: 24px;
+      font-family: "Salsa", cursive !important;
+      color: var(--white-color);
+    }
+  }
+
+  .title {
+    font-size: 20px;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .circleExplain {
+    width: 35px;
+    height: 35px;
+    border: 1px solid var(--theme-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-left: 20px;
+
+    .text {
+      font-size: 30px;
+      color: #ff5b4d;
+    }
+  }
+}
+
+.headerText {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.indexWrapper {
+  border: 2px solid lightgrey;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.title:hover {
+  color: #4c5bd4;
+}
+
+/* responsive */
+@media screen and (max-width: 1210px) {
+  .singleBtn {
+    .title {
+      margin-left: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .title {
+    margin-left: 0px !important;
+  }
+
+  .section1 {
+    padding: 0px 16px;
+  }
+}

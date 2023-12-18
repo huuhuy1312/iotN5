@@ -1,0 +1,97 @@
+.thongso{
+    display: flex;
+    width: 50%;
+    justify-content: space-between; 
+    padding: 30px 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.temp{
+    border: 3px solid rgb(203, 88, 11);
+    margin-left: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+.texttemp{
+    color: rgb(215, 90, 7);
+    font-size: 30px;
+   margin-top: 5px;
+   font-weight: 600;
+   font-family: 'Courier New', monospace;
+  
+}
+.hum{
+    border: 3px solid rgb(5, 83, 162);
+    margin-left: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+}
+.texthum{
+    color: rgb(7, 83, 215);
+    font-size: 30px;
+   margin-top: 5px;
+   font-weight: 600;
+   font-family: 'Courier New', monospace;
+}
+.light{
+    border: 3px solid rgb(231, 240, 56);
+    margin-left: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 90%;
+}
+.textlight{
+    color: rgb(231, 231, 45);
+    font-size: 30px;
+   margin-top: 5px;
+   font-weight: 600;
+   font-family: 'Courier New', monospace;
+}
+.soil{
+    border: 3px solid brown;
+    margin-left: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 90%;
+}
+.textsoil{
+    color: brown;
+    font-size: 30px;
+   margin-top: 5px;
+   font-weight: 600;
+   font-family: 'Courier New', monospace;
+}
+.indextemp{
+    color: rgb(217, 102, 25);
+    font-size: 40px;
+   margin-top: 5px;
+   font-weight: 600;
+   font-family: 'Courier New', monospace;
+}
+.indexhum{
+    color:  rgb(5, 83, 162);
+    font-size: 40px;
+   margin-top: 5px;
+   font-weight: 600;
+   font-family: 'Courier New', monospace;
+}
+.indexlight{
+    color:  rgb(231, 231, 45);
+    font-size: 40px;
+   margin-top: 5px;
+   font-weight: 600;
+   font-family: 'Courier New', monospace;
+}
+.indexsoil{
+    color: brown;
+    font-size: 40px;
+   margin-top: 5px;
+   font-weight: 600;
+   font-family: 'Courier New', monospace;
+}
